@@ -53,6 +53,7 @@ section.hours {
     border-radius: 5px;
 
     margin: 5px 0px;
+    padding: 2px;
 }
 
 /* ------------------ FIM DO HEADER ------------------ */
@@ -71,6 +72,32 @@ section.first {
 }
 
 section.second {
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+section.third {
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+section.fourth {
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
