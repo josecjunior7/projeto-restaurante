@@ -7,18 +7,52 @@
 }
 
 header {
-    background-image: url("../images/bg.png");
+    background-image: url("../images/bg.jfif");
     background-size: cover;
+    background-position: bottom center;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 img.logo {
-    width: 128px;
-    height: 128px;
-    box-shadow: 5px 3px rgba(0, 0, 0, 0.466);
+    width: 120px;
+    height: 120px;
+    box-shadow: 3px 1px rgba(0, 0, 0, 0.466);
     border-radius: 100%;
+
+    margin: 10px 0px;
 }
 
 img.logo:hover {
     scale: 1.1;
     transition: 0.5s;
 }
+
+section > h1, p { 
+    font-size: bold;
+    text-align: center;
+    color: white;
+}
+
+section.hours {
+    color: white;
+    font-size: bold;
+    text-align: center;
+    background-color: rgb(0, 160, 61);
+    border-radius: 5px;
+
+    margin: 5px 0px;
+}
+
+/* ------------------ FIM DO HEADER ------------------ */
+
