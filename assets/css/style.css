@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -56,3 +57,43 @@ section.hours {
 
 /* ------------------ FIM DO HEADER ------------------ */
 
+section.main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: start;
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 15px;
+}
+
+img.product {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+
+    margin-left: 5px;
+}
+
+article > h3  {
+    color: black;
+    text-align: justify;
+    margin: 0px 10px;
+}
+
+article > p  {
+    color: black;
+    text-align: justify;
+    margin: 3px 10px;
+}
+
+article > div {
+    margin: 0px 10px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
