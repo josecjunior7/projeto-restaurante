@@ -57,11 +57,30 @@ section.hours {
 
 /* ------------------ FIM DO HEADER ------------------ */
 
-section.main {
+section.first {
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius: 15px;
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: start;
-    align-items: start;
+    align-items: center;
+}
+
+section.second {
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
 }
 
 h2 {
@@ -72,7 +91,7 @@ h2 {
 
 img.product {
     width: 120px;
-    height: 100px;
+    height: 110px;
     border-radius: 10px;
 
     margin-left: 5px;
@@ -94,6 +113,16 @@ article > div {
     margin: 0px 10px;
 
     display: flex;
-    flex-flow: row nowrap;
+    align-items: center;
     justify-content: space-between;
+}
+
+div > h3 {
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    width: 65px;
 }
