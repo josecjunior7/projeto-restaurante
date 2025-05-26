@@ -11,3 +11,14 @@ header {
     background-size: cover;
 }
 
+img.logo {
+    width: 128px;
+    height: 128px;
+    box-shadow: 5px 3px rgba(0, 0, 0, 0.466);
+    border-radius: 100%;
+}
+
+img.logo:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
