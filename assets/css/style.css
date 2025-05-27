@@ -188,3 +188,57 @@ section.sixth { /* 2ª SOBREMESA */
     justify-content: start;
     align-items: center;
 }
+
+/* ------------------ FIM DAS SOBREMESAS ------------------ */
+
+section.seventh { /* 1ª BEBIDA */
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+section.eighth { /* 2ª BEBIDA */
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+section.nineth { /* 3ª BEBIDA */
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+section.tenth { /* 4ª BEBIDA */
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
