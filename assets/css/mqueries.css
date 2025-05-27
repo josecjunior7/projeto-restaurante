@@ -8,7 +8,29 @@
 
 @media screen and (min-width: 778px) {
     section.grid1 {
-        max-width: 850px;
+        max-width: 950px;
+
+        margin: auto;
+        display: grid;
+        grid-template: repeat(2, auto) / repeat(2,auto);
+        gap: 10px;
+        place-items: center center;
+        place-content: center center;
+    }
+
+    section.grid2 {
+        max-width: 950px;
+
+        margin: auto;
+        display: grid;
+        grid-template: repeat(2, auto) / repeat(2,auto);
+        gap: 10px;
+        place-items: center center;
+        place-content: center center;
+    }
+
+    section.grid3 {
+        max-width: 950px;
 
         margin: auto;
         display: grid;
