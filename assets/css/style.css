@@ -110,6 +110,32 @@ section.fourth { /* 4º PRATO */
     align-items: center;
 }
 
+section.cinco { /* 5º PRATO */
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+section.seis { /* 6º PRATO */
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
 h2 {
     font-size: 1.8rem;
     text-align: center;
