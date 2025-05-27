@@ -58,7 +58,7 @@ section.hours {
 
 /* ------------------ FIM DO HEADER ------------------ */
 
-section.first {
+section.first { /* 1º PRATO */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -71,7 +71,7 @@ section.first {
     align-items: center;
 }
 
-section.second {
+section.second { /* 2º PRATO */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -84,7 +84,7 @@ section.second {
     align-items: center;
 }
 
-section.third {
+section.third { /* 3º PRATO */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -97,7 +97,7 @@ section.third {
     align-items: center;
 }
 
-section.fourth {
+section.fourth { /* 4º PRATO */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -123,6 +123,11 @@ img.product {
 
     margin-left: 5px;
 }
+img.product:hover {
+    scale: 1.1;
+    rotate: -1.9deg;
+    transition: 2s;
+}
 
 article > h3  {
     color: black;
@@ -131,6 +136,7 @@ article > h3  {
 }
 
 article > p  {
+    font-size: 0.9rem;
     color: black;
     text-align: justify;
     margin: 3px 10px;
@@ -152,4 +158,20 @@ button {
     background-color: rgb(27, 27, 27);
     color: white;
     width: 65px;
+    border-radius: 12px;
+}
+
+/* ------------------ FIM DO MENU PRINCIPAL ------------------ */
+
+section.fiveth { /* 1ª SOBREMESA */
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
 }
