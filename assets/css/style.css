@@ -110,7 +110,7 @@ section.fourth { /* 4º PRATO */
     align-items: center;
 }
 
-section.cinco { /* 5º PRATO */
+section.fiveth { /* 5º PRATO */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -123,7 +123,7 @@ section.cinco { /* 5º PRATO */
     align-items: center;
 }
 
-section.seis { /* 6º PRATO */
+section.sixth { /* 6º PRATO */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -189,7 +189,7 @@ button {
 
 /* ------------------ FIM DO MENU PRINCIPAL ------------------ */
 
-section.fiveth { /* 1ª SOBREMESA */
+section.seventh { /* 1ª SOBREMESA */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -202,7 +202,7 @@ section.fiveth { /* 1ª SOBREMESA */
     align-items: center;
 }
 
-section.sixth { /* 2ª SOBREMESA */
+section.eighth { /* 2ª SOBREMESA */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -215,7 +215,7 @@ section.sixth { /* 2ª SOBREMESA */
     align-items: center;
 }
 
-section.sete { /* 3ª SOBREMESA */
+section.nineth { /* 3ª SOBREMESA */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -230,7 +230,7 @@ section.sete { /* 3ª SOBREMESA */
 
 /* ------------------ FIM DAS SOBREMESAS ------------------ */
 
-section.seventh { /* 1ª BEBIDA */
+section.tenth { /* 1ª BEBIDA */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -243,7 +243,7 @@ section.seventh { /* 1ª BEBIDA */
     align-items: center;
 }
 
-section.eighth { /* 2ª BEBIDA */
+section.eleventh { /* 2ª BEBIDA */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -256,7 +256,7 @@ section.eighth { /* 2ª BEBIDA */
     align-items: center;
 }
 
-section.nineth { /* 3ª BEBIDA */
+section.twelfth { /* 3ª BEBIDA */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -269,7 +269,7 @@ section.nineth { /* 3ª BEBIDA */
     align-items: center;
 }
 
-section.tenth { /* 4ª BEBIDA */
+section.thirteenth { /* 4ª BEBIDA */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -282,7 +282,7 @@ section.tenth { /* 4ª BEBIDA */
     align-items: center;
 }
 
-section.eleventh { /* 5ª BEBIDA */
+section.fourteenth { /* 5ª BEBIDA */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
@@ -295,7 +295,7 @@ section.eleventh { /* 5ª BEBIDA */
     align-items: center;
 }
 
-section.twelfth { /* 6ª BEBIDA */
+section.fifteenth { /* 6ª BEBIDA */
     background-color: rgba(243, 243, 243, 0.568);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
     padding: 10px;
