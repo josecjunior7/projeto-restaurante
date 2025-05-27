@@ -41,4 +41,72 @@
     }
 }
 
-@media screen and (min-width: 778px) 
+@media screen and (min-width: 1200px) {
+    /*----------- MENU PRINCIPAL -----------*/
+    section.grid1 {
+        max-width: 1000px;
+        margin: auto;
+        display: grid;
+        grid-template: repeat(3, auto) / repeat(3,auto);
+        gap: 10px;
+        place-items: space-between center;
+        place-content: center center;
+    }
+
+    section.grid1 p {
+        display: none;
+    }
+
+    section.grid1 h3{
+        font-size: 1rem;
+    }
+
+    article {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+
+    .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-top: 10px;
+    }
+
+
+    /*----------- FIM DO MENU PRINCIPAL -----------*/
+
+    section.grid2 {
+        max-width: 950px;
+
+        margin: auto;
+        display: grid;
+        grid-template: repeat(3, auto) / repeat(3,auto);
+        gap: 10px;
+        place-items: center center;
+        place-content: center center;
+    }
+
+    section.grid2 p {
+        display: none;
+    }
+
+    section.grid3 {
+        max-width: 950px;
+
+        margin: auto;
+        display: grid;
+        grid-template: repeat(3, auto) / repeat(3,auto);
+        gap: 10px;
+        place-items: center center;
+        place-content: center center;
+    }
+
+    section.grid3 p {
+        display: none;
+    }
+}

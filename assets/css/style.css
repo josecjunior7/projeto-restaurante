@@ -176,8 +176,8 @@ article > div {
     justify-content: space-between;
 }
 
-div > h3 {
-    font-size: 1.5rem;
+div > h4 {
+    font-size: 1.2rem;
 }
 
 button {
