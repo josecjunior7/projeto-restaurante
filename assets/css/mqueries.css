@@ -40,3 +40,5 @@
         place-content: center center;
     }
 }
+
+@media screen and (min-width: 778px) 

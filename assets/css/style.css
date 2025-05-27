@@ -215,6 +215,19 @@ section.sixth { /* 2ª SOBREMESA */
     align-items: center;
 }
 
+section.sete { /* 3ª SOBREMESA */
+    background-color: rgba(243, 243, 243, 0.568);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
 /* ------------------ FIM DAS SOBREMESAS ------------------ */
 
 section.seventh { /* 1ª BEBIDA */
