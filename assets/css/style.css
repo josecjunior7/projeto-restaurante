@@ -307,3 +307,11 @@ section.fifteenth { /* 6ª BEBIDA */
     justify-content: start;
     align-items: center;
 }
+
+/* ------------------ FIM DAS BEBIDAS ------------------ */
+
+/* --------------------- ANIMAÇÕES --------------------- */
+
+.first:hover, .second:hover, .third:hover, .fourth:hover, .fiveth:hover, .sixth:hover, .seventh:hover, .eighth:hover, .nineth:hover, .tenth:hover, .eleventh:hover, .twelfth:hover, .thirteenth:hover, .fourteenth:hover, .fifteenth:hover {
+    scale: 1.025;
+}
