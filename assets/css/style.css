@@ -11,7 +11,8 @@ header {
     background-image: url("../images/bg.jfif");
     background-size: cover;
     background-position: bottom center;
-    
+    padding: 35px 0px;
+
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -308,7 +309,28 @@ section.fifteenth { /* 6ª BEBIDA */
     align-items: center;
 }
 
+section.grid3 {
+    padding-bottom: 60px;
+}
 /* ------------------ FIM DAS BEBIDAS ------------------ */
+/* -------------------- FIM DO MAIN -------------------- */
+
+footer > button {
+    width: 100%;
+    background-color: rgb(255, 34, 34);
+    padding: 5px;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Para garantir que fique acima de outros elementos */
+
+
+    display: flex;
+    justify-content: center;
+}
+
 
 /* --------------------- ANIMAÇÕES --------------------- */
 
