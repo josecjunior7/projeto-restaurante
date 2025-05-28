@@ -312,14 +312,38 @@ section.fifteenth { /* 6ª BEBIDA */
 section.grid3 {
     padding-bottom: 60px;
 }
-/* ------------------ FIM DAS BEBIDAS ------------------ */
+
 /* -------------------- FIM DO MAIN -------------------- */
+
+section.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+}
+
+section.modal_content {
+    background-color: white;
+    width: 80%;
+    height: 55%;
+}
+
+/* -------------------- FIM DO MODAL -------------------- */
 
 footer > button {
     width: 100%;
     background-color: rgb(255, 34, 34);
     padding: 5px;
     font-size: 18px;
+    font-weight: bold;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -330,6 +354,8 @@ footer > button {
     display: flex;
     justify-content: center;
 }
+
+/* -------------------- FIM DO FOOTER -------------------- */
 
 
 /* --------------------- ANIMAÇÕES --------------------- */
