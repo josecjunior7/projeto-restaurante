@@ -342,10 +342,23 @@
 
     <section id="modal" class="modal">
         <section class="modal_content">
-            <p>Meu carrinho</p>
+            <h2>Seu carrinho</h2>
+            
+            <div id="cart_itens"></div>
+
+            <p>Total: <span id="cart_total">0.00</span></p>
+
+            <p>Endereço de Entrega:</p>
+            <input type="text" name="Endereço" id="adress" placeholder="Digite seu endereço">
+            <p class="adress_error" id="adress_error">Digite seu endereço completo!</p>
+
+            <div class="btts">
+                <button id="close_modal">Fechar</button>
+                <button id="checkout_btt">Finalizar Pedido</button>
+            </div>
         </section>
     </section>
-    
+
     <footer>
         <button>
             ( <span id="cart_count">0</span> )

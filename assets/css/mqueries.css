@@ -39,6 +39,10 @@
         place-items: center center;
         place-content: center center;
     }
+
+    .modal_content {
+        max-width: 550px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
