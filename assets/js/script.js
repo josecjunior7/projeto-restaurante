@@ -1,0 +1,7 @@
+const menu = document.getElementById('menu')
+const cartBtn = document.getElementById('cartBtt')
+const cartModal = document.getElementById('modal')
+const cartItensContainer = document.getElementById('cart_itens')
+const cartTotal = document.getElementById('cart_total')
+const checkoutBtn = document.getElementById('checkout_btt')
+const fecharModal = document.getElementById('close_modal')
