@@ -7,6 +7,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
 header {
     background-image: url("../images/bg.jfif");
     background-size: cover;
