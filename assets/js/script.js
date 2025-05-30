@@ -10,6 +10,21 @@ const cartCounter = document.getElementById('cart_count')
 const adressInput = document.getElementById('adress')
 const adressFailed = document.getElementById('adress_error')
 
+
+/* --------------- Abrir Modal ---------------*/
 cartBtn.addEventListener("click", function() {
     cartModal.style.display = "flex"
 })
+
+/* --------------- Fechar Modal ---------------*/
+cartModal.addEventListener("click", function(event){
+    if(event.target === cartModal){
+        cartModal.style.display = "none"
+    }
+})
+
+fecharModal.addEventListener("click", function(event){
+    cartModal.style.display = "none"
+})
+/* ---------------------------------------------*/
+
