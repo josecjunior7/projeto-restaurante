@@ -343,7 +343,7 @@ section.modal_content {
 .modal_content > h2 {
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     text-align: center;
 }
 

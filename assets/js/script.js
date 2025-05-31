@@ -64,16 +64,20 @@ function updateCartModal(){
 
     cart.forEach(item => {
         const cartItemElement = document.createElement("section")
-        cartItemElement.classList.add("flex", "justify-between", "mb-4", "flex-col")
+        cartItemElement.style.display = "flex"
+        cartItemElement.style.justifyContent = "space-between"
+        cartItemElement.style.marginBottom = "10px"
+        cartItemElement.style.flexDirection = "column"
 
         cartItemElement.innerHTML = `
-            <section style="display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 8px; width: 100%;">
-                <section style="display: flex; flex-direction: column;>
+            <section style="display: flex; background-color: rgba(243, 243, 243, 0.568); justify-content: space-between; align-items: center; gap: 8px; padding: 0px 8px 8px 8px; width: 95%; box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.205); border-radius: 12px;">
+                <section style="display: flex; flex-direction: column; text-align: justify>
                     <p style="color: black;">${item.name} </p>
                     <p style="color: black;">Quantidade: ${item.quantity}</p>
                     <p style="color: black;">${item.price.toFixed(2)} R$</p>
                 </section>
-                <section>
+                
+                <section >
                     <button style="padding: 6px 6px; background-color: #f44336; color: white; border: none; border-radius: 4px; cursor: pointer;">
                         Remover
                     </button>
