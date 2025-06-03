@@ -337,6 +337,7 @@ section.modal {
 section.modal_content {
     background-color: rgb(255, 255, 255);
     width: 80%;
+    max-width: 500px;
     border-radius: 10px;
 }
 
