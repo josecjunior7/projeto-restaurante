@@ -70,14 +70,14 @@ function updateCartModal(){
         cartItemElement.style.flexDirection = "column"
 
         cartItemElement.innerHTML = `
-            <section style="display: flex; background-color: rgba(243, 243, 243, 0.568); justify-content: space-between; align-items: center; gap: 8px; padding: 0px 8px 8px 8px; width: 95%; box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.205); border-radius: 12px;">
-                <section style="display: flex; flex-direction: column; text-align: justify>
+            <section style="display: flex; background-color: rgba(243, 243, 243, 0.568); justify-content: space-between; align-items: center; gap: 8px; padding: 0px 8px 3px 5px; width: 95%; box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.205); border-radius: 12px;">
+                <section style="display: flex; flex-direction: column; text-align: center; margin-right: 140px;">
                     <p style="color: black;">${item.name} </p>
                     <p style="color: black;">Quantidade: ${item.quantity}</p>
                     <p style="color: black;">${item.price.toFixed(2)} R$</p>
                 </section>
                 
-                <section >
+                <section style="margin-left: 50px;">
                     <button style="padding: 6px 6px; background-color: #f44336; color: white; border: none; border-radius: 4px; cursor: pointer;">
                         Remover
                     </button>
@@ -85,6 +85,13 @@ function updateCartModal(){
             </section>
         `
 
+        total += item.price * item.quantity
+        
         cartItensContainer.appendChild(cartItemElement)
+    })
+
+    cartTotal.textContent = total.toLocaleString("pt-BR", {
+        style: "currency",
+        currency: "BRL"
     })
 }
