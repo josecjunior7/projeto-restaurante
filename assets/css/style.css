@@ -190,6 +190,13 @@ button {
     color: white;
     width: 65px;
     border-radius: 12px;
+    border: none;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset;
 }
 
 /* ------------------ FIM DO MENU PRINCIPAL ------------------ */
@@ -354,12 +361,19 @@ div.cart_itens {
     justify-content: space-between;
 }
 
+.pfirst {
+    margin: 15px 0px 0px 10px;
+}
+
+.psecond {
+    margin: 0px 0px 0px 10px;
+}
+
 .modal_content > p {
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
     padding-bottom: 8px;
     text-align: left;
-    margin: 0px 5px;
 }
 
 p.adress_error {
@@ -371,7 +385,7 @@ input#adress {
     width: 300px;
     height: 25px;
     border-radius: 5px;
-    margin: 0px 0px 15px 5px;
+    margin: 0px 0px 15px 10px;
 }
 
 div.btts {
@@ -383,12 +397,13 @@ div.btts {
 
 button#close_modal {
     text-align: center;
-    background-color: rgb(209, 20, 20);
+    background-color: #f44336;
     color: rgb(255, 255, 255);
     width: 100px;
     height: 30px;
     margin: 0px 0px 10px 5px;
     border-radius: 10px;
+    border: none;
 }
 
 button#close_modal:hover {
@@ -403,6 +418,7 @@ button#checkout_btt {
     height: 30px;
     margin: 0px 5px 10px 0px;
     border-radius: 10px;
+    border: none;
 }
 
 button#checkout_btt:hover {
