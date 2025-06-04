@@ -71,7 +71,7 @@ function updateCartModal(){
         cartItemElement.style.flexDirection = "column"
 
         cartItemElement.innerHTML = `
-            <section style="display: flex; background-color: rgba(243, 243, 243, 0.568); justify-content: space-between; align-items: center; gap: 8px; padding: 5px 8px 5px 5px; width: 95%; box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.205); border-radius: 12px; width: 380px">
+            <section style="display: flex; background-color: rgba(243, 243, 243, 0.568); justify-content: space-between; align-items: center; gap: 8px; padding: 5px 8px 5px 5px; width: 95%; box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.205); border-radius: 12px; width: 380px;">
                 <section style="display: flex; flex-direction: column; text-align: left;">
                     <p style="color: black; padding: 3px 3px;">${item.name} </p>
                     <p style="color: black; text-align: left; padding: 3px 3px;">Quantidade: ${item.quantity}</p>
