@@ -58,6 +58,7 @@ function addToCart(name, price) {
 
 }
 
+// FUNÇÃO PARA ATUALIZAR O CARRINHO
 function updateCartModal(){
     cartItensContainer.innerHTML = ""
     let total = 0;
@@ -78,7 +79,7 @@ function updateCartModal(){
                 </section>
                 
                 <section>
-                    <button style="padding: 6px 6px; background-color: #f44336; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                    <button class="remove-btt-cart" data-name="${item.name}" style="padding: 6px 6px; background-color: #f44336; color: white; border: none; border-radius: 4px; cursor: pointer;">
                         Remover
                     </button>
                 </section>
@@ -94,4 +95,31 @@ function updateCartModal(){
         style: "currency",
         currency: "BRL"
     })
+
+    cartCounter.innerHTML = cart.length
+}
+
+// FUNÇÃO REMOVER ITEM
+cartItensContainer.addEventListener("click", function(event){
+    if(event.target.classList.contains("remove-btt-cart")){
+        const name = event.target.getAttribute("data-name")
+
+        removeItemCart(name)
+    }
+})
+
+function removeItemCart(name) {
+    const index = cart.findIndex(item => item.name === name)
+    if(index !== -1) {
+        const item = cart[index]
+        if(item.quantity > 1) {
+            item.quantity -= 1
+            updateCartModal()
+            return
+        }
+
+        cart.splice(index, 1)
+        updateCartModal()
+
+    }
 }
