@@ -123,3 +123,21 @@ function removeItemCart(name) {
 
     }
 }
+
+adressInput.addEventListener("input", function(event){
+    let inputValue = event.target.value
+    if (adressInput.value !== "") {
+        adressInput.style.border = "2px solid black"
+        adressFailed.style.display = "none"
+    }
+    
+})
+
+checkoutBtn.addEventListener("click", function(){
+    if(cart.length === 0) return
+    if (adressInput.value === "") {
+        adressFailed.style.display = "inline-block"
+        adressInput.style.border = "2px solid red"
+        return
+    }
+})
