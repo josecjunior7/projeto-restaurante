@@ -426,10 +426,22 @@ button#checkout_btt:hover {
     background-color: rgb(0, 182, 15);
 }
 
+.cart-item-inner {
+    display: flex;
+    background-color: rgba(243, 243, 243, 0.568);
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px 5px 5px;
+    width: 95%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.205);
+    border-radius: 12px;
+    width: 380px;
+}
+
 /* -------------------- FIM DO MODAL -------------------- */
 
 footer > button {
-    width: 100%;
     background-color: rgb(255, 34, 34);
     padding: 5px;
     font-size: 18px;
