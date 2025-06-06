@@ -166,6 +166,9 @@ checkoutBtn.addEventListener("click", function(){
 
     const phone = "5581985707206"
     window.open(`https://wa.me/${phone}?text=${message}`, "_blank")
+
+    cart = []
+    updateCartModal()
 })
 
 
