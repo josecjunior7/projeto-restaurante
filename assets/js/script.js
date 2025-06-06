@@ -31,6 +31,8 @@ fecharModal.addEventListener("click", function(event){
 })
 /* ---------------------------------------------*/
 
+// FUNÇÃO DE ADICIONAR ITEM NO CARRINHO
+
 menu.addEventListener("click", function(event){
     let parentButton = event.target.closest(".icon")
     //console.log(parentButton)
@@ -124,6 +126,8 @@ function removeItemCart(name) {
     }
 }
 
+// FUNÇÃO DE ENDEREÇO
+
 adressInput.addEventListener("input", function(event){
     let inputValue = event.target.value
     if (adressInput.value !== "") {
@@ -134,18 +138,43 @@ adressInput.addEventListener("input", function(event){
 })
 
 checkoutBtn.addEventListener("click", function(){
+    const isOpen = checkRestauranteOpen()  // <-- Ative isso de novo!
+    if(!isOpen){
+        alert("RESTAURANTE FECHADO NO MOMENTO!")
+        return
+    }
+
     if(cart.length === 0) return
+
     if (adressInput.value === "") {
         adressFailed.style.display = "inline-block"
         adressInput.style.border = "2px solid red"
         return
     }
+
+    const cartItems = cart.map((item) => {
+        return (
+            `${item.name} Quantidade: (${item.quantity}) Preço: R$${item.price.toFixed(2)}\n`
+        )
+    }).join("")
+
+    const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0)
+
+    const message = encodeURIComponent(
+        `Pedido:\n${cartItems}\nTotal: R$${total.toFixed(2)}\nEndereço: ${adressInput.value}`
+    )
+
+    const phone = "5581985707206"
+    window.open(`https://wa.me/${phone}?text=${message}`, "_blank")
 })
+
+
+// FUNÇÃO DE HORÁRIO DE FUNCIONAMENTO DO RESTAURANTE
 
 function checkRestauranteOpen(){
     const data = new Date()
-    const hora = data.getHours
-    return hora >= 18 && hora < 22
+    const hora = data.getHours()
+    return hora >= 12 && hora < 22
 
 }
 
