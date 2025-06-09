@@ -140,7 +140,17 @@ adressInput.addEventListener("input", function(event){
 checkoutBtn.addEventListener("click", function(){
     const isOpen = checkRestauranteOpen()  // <-- Ative isso de novo!
     if(!isOpen){
-        alert("RESTAURANTE FECHADO NO MOMENTO!")
+        Toastify({
+            text: "Ops, o restaurante está fechado no momento.",
+            duration: 3000,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "right", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+                background: "#f44336",
+            },
+            }).showToast();
         return
     }
 
@@ -177,7 +187,7 @@ checkoutBtn.addEventListener("click", function(){
 function checkRestauranteOpen(){
     const data = new Date()
     const hora = data.getHours()
-    return hora >= 10 && hora < 22
+    return hora >= 18 && hora < 22
 
 }
 
