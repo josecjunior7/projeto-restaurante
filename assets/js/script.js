@@ -77,6 +77,7 @@ function updateCartModal(){
                 <section style="display: flex; flex-direction: column; text-align: left;">
                     <p style="color: black; padding: 3px 3px;">${item.name} </p>
                     <p style="color: black; text-align: left; padding: 3px 3px;">Quantidade: ${item.quantity}</p>
+                    <input type="text" name="obs" id="obs">
                     <p style="color: black; text-align: left; padding: 3px 3px;">${item.price.toFixed(2)} R$</p>
                 </section>
                 
