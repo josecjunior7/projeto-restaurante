@@ -147,7 +147,7 @@ checkoutBtn.addEventListener("click", function(){
             close: true,
             gravity: "top", // `top` or `bottom`
             position: "right", // `left`, `center` or `right`
-            stopOnFocus: true, // Prevents dismissing of toast on hover
+            stopOnFocus: true, // `Prevent adrees scope and focusing text side`
             style: {
                 background: "#f44336",
             },
@@ -175,7 +175,7 @@ checkoutBtn.addEventListener("click", function(){
         `Pedido:\n${cartItems}\nTotal: R$${total.toFixed(2)}\nEndereço: ${adressInput.value}`
     )
 
-    const phone = "5581985707206"
+    const phone = "5581984770488"
     window.open(`https://wa.me/${phone}?text=${message}`, "_blank")
 
     cart = []
